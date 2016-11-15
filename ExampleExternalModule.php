@@ -6,8 +6,8 @@ class ExampleExternalModule extends AbstractExternalModule
 {
 	function hook_project_home_page($project_id)
 	{
-		$this->selectData('...');
-		$this->updateUserPermissions('...');
+//		$this->selectData('...');
+//		$this->updateUserPermissions('...');
 
 		?>
 		<script>
