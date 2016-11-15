@@ -1,0 +1,65 @@
+{
+	"name": "Example Module",
+	
+	"permissions": [
+		"hook_project_home_page",
+		"select_data",
+		"update_data",
+		"delete_data",
+		"update_user_permissions"
+	],
+
+	"links": {
+		"control-center": {
+			"My Control Center Menu Link": {
+				"icon": "user",
+				"url": "control_center_homepage.php"
+			}
+		},
+		"project": {
+			"My Project Menu Link": {
+				"icon": "report",
+				"url": "project_homepage.php"
+			}
+		}
+	},
+
+	"global-settings": {
+		"favorite-color": {
+			"name": "Favorite Color",
+			"required": false,
+			"allow-project-overrides": false,
+			"type": "text",
+			"default": "Blue"
+		},
+		"preferred-transporation": {
+			"name": "Preferred Method of Transportation",
+			"required": true,
+			"allow-project-overrides": true,
+			"type": "radio",
+			"choices": "car, Car\nbus, Bus\nbike, Bicycle"
+		}
+	},
+	
+	"project-settings": {
+		"literate": {
+			"name": "I certify that I am literate",
+			"required": true,
+			"type": "checkbox"
+		},
+		"date-of-birth": {
+			"name": "Date of Birth",
+			"required": true,
+			"type": "text",
+			"validation-type": "date_dmy",
+			"validation-min": "1/1/1900",
+			"validation-max": "1/1/2000"
+		},
+		"likes-pizza": {
+			"name": "Do you like pizza?",
+			"required": false,
+			"type": "dropdown",
+			"choices": "1, Yes\n2, No"
+		}
+	}
+}
