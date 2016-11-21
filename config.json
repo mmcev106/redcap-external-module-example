@@ -13,7 +13,7 @@
 		"control-center": {
 			"My Control Center Menu Link": {
 				"icon": "user",
-				"url": "control_center_homepage.php"
+				"url": "system_level_homepage.php"
 			}
 		},
 		"project": {
