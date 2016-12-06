@@ -38,6 +38,7 @@
 			"allow-project-overrides": true,
 			"type": "radio",
 			"choices": "car, Car\nbus, Bus\nbike, Bicycle"
+			"default": "car",
 		}
 	},
 	
