@@ -60,6 +60,11 @@
 				{ "value": "1", "name": "Yes" },
 				{ "value": "2", "name": "No" }
 			]
+		},
+		"favorite-fish": {
+			"name": "Favorite Fish",
+			"required": false,
+			"type": "text"
 		}
 	}
 }
