@@ -32,7 +32,7 @@
 			"type": "text",
 			"default": "Blue"
 		},
-		"preferred-transporation": {
+		"preferred-transportation": {
 			"name": "Preferred Method of Transportation",
 			"required": true,
 			"allow-project-overrides": true,
