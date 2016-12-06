@@ -37,8 +37,12 @@
 			"required": true,
 			"allow-project-overrides": true,
 			"type": "radio",
-			"choices": "car, Car\nbus, Bus\nbike, Bicycle"
 			"default": "car",
+			"choices": [
+				{ "value": "car", "name": "Car" },
+				{ "value": "bus", "name": "Bus" },
+				{ "value": "bike", "name": "Bicycle" }
+			]
 		}
 	},
 	
@@ -52,7 +56,10 @@
 			"name": "Do you like pizza?",
 			"required": false,
 			"type": "dropdown",
-			"choices": "1, Yes\n2, No"
+			"choices": [
+				{ "value": "1", "name": "Yes" },
+				{ "value": "2", "name": "No" }
+			]
 		}
 	}
 }
