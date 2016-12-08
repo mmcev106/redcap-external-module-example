@@ -10,18 +10,20 @@
 	],
 
 	"links": {
-		"control-center": {
-			"My Control Center Menu Link": {
+		"control-center": [
+			{
+				"name": "My Control Center Menu Link",
 				"icon": "user",
 				"url": "system_level_homepage.php"
 			}
-		},
-		"project": {
-			"My Project Menu Link": {
+		],
+		"project": [
+			{
+				"name": "My Project Menu Link",
 				"icon": "report",
 				"url": "project_homepage.php"
 			}
-		}
+		]
 	},
 
 	"global-settings": {
