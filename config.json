@@ -26,15 +26,17 @@
 		]
 	},
 
-	"global-settings": {
-		"favorite-color": {
+	"global-settings": [
+		{
+			"key": "favorite-color",
 			"name": "Favorite Color",
 			"required": false,
 			"allow-project-overrides": false,
 			"type": "text",
 			"default": "Blue"
 		},
-		"preferred-transportation": {
+		{
+			"key": "preferred-transportation",
 			"name": "Preferred Method of Transportation",
 			"required": true,
 			"allow-project-overrides": true,
@@ -46,15 +48,17 @@
 				{ "value": "bike", "name": "Bicycle" }
 			]
 		}
-	},
+	],
 	
-	"project-settings": {
-		"literate": {
+	"project-settings": [
+		{
+			"key": "literate",
 			"name": "I certify that I am literate",
 			"required": true,
 			"type": "checkbox"
 		},
-		"likes-pizza": {
+		{
+			"key": "likes-pizza",
 			"name": "Do you like pizza?",
 			"required": false,
 			"type": "dropdown",
@@ -63,10 +67,11 @@
 				{ "value": "2", "name": "No" }
 			]
 		},
-		"favorite-fish": {
+		{
+			"key": "favorite-fish",
 			"name": "Favorite Fish",
 			"required": false,
 			"type": "text"
 		}
-	}
+	]
 }
