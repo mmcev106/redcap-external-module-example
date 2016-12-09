@@ -4,15 +4,22 @@ require_once dirname(__FILE__) . '/../../external_modules/classes/ExternalModule
 
 class ExampleExternalModule extends AbstractExternalModule
 {
-	function hook_project_home_page($project_id)
+	function hook_every_page_top($project_id)
 	{
 //		$this->selectData('...');
 //		$this->updateUserPermissions('...');
 
-		?>
-		<script>
-			console.log("This message came from a hook defined in the ExampleExternalModule!  Your project id is <?= $project_id ?>!");
-		</script>
-		<?php
+		if(isset($project_id)){
+			?>
+			<style>
+				#west .menubox{
+					background: <?=$this->getProjectSetting('project-menu-background-css');?>;
+				}
+			</style>
+			<script>
+				console.log("This message came from a hook defined in the ExampleExternalModule!  Your project id is <?= $project_id ?>!");
+			</script>
+			<?php
+		}
 	}
 }

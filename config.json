@@ -2,7 +2,7 @@
 	"name": "Example Module",
 	
 	"permissions": [
-		"hook_project_home_page",
+		"hook_every_page_top",
 		"select_data",
 		"update_data",
 		"delete_data",
@@ -28,18 +28,18 @@
 
 	"global-settings": [
 		{
-			"key": "favorite-color",
-			"name": "Favorite Color",
+			"key": "project-menu-background-css",
+			"name": "Project Menu Background CSS",
 			"required": false,
-			"allow-project-overrides": false,
+			"allow-project-overrides": true,
 			"type": "text",
-			"default": "Blue"
+			"default": "#e2ca9c"
 		},
 		{
 			"key": "preferred-transportation",
 			"name": "Preferred Method of Transportation",
 			"required": true,
-			"allow-project-overrides": true,
+			"allow-project-overrides": false,
 			"type": "radio",
 			"default": "car",
 			"choices": [
@@ -66,12 +66,6 @@
 				{ "value": "1", "name": "Yes" },
 				{ "value": "2", "name": "No" }
 			]
-		},
-		{
-			"key": "favorite-fish",
-			"name": "Favorite Fish",
-			"required": false,
-			"type": "text"
 		}
 	]
 }
