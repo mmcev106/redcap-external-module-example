@@ -66,6 +66,81 @@
 				{ "value": "1", "name": "Yes" },
 				{ "value": "2", "name": "No" }
 			]
+		},
+		{
+			"key": "pages",
+			"name": "Any Number of Pages to Look at",
+			"required": false,
+			"repeatable": true,
+			"type": "text"
+		},
+		{
+			"key": "forms",
+			"name": "Form to act upon",
+			"required": false,
+			"repeatable": false,
+			"type": "form-list"
+		},
+		{
+			"key": "fields",
+			"name": "Fields to inspect",
+			"required": false,
+			"repeatable": true,
+			"type": "field-list"
+		},
+		{
+			"key": "dags",
+			"name": "Data Access Groups",
+			"required": false,
+			"repeatable": false,
+			"type": "dag-list"
+		},
+		{
+			"key": "user-roles",
+			"name": "User Roles",
+			"required": false,
+			"repeatable": false,
+			"type": "user-role-list"
+		},
+		{
+			"key": "users",
+			"name": "Users",
+			"required": false,
+			"repeatable": false,
+			"type": "user-list"
+		},
+		{
+			"key": "emails",
+			"name": "Email forms",
+			"required": true,
+			"type": "sub-settings",
+			"repeatable": true,
+			"sub_settings":[
+				{
+					"key": "form-name",
+					"name": "Form name",
+					"required": true,
+					"type": "form-list"
+				},
+				{
+					"key": "email",
+					"name": "Email Address",
+					"required": true,
+					"type": "text"
+				},
+				{
+					"key": "email-subject",
+					"name": "Email Subject",
+					"required": true,
+					"type": "text"
+				},
+				{
+					"key": "email-text",
+					"name": "Email Text",
+					"required": true,
+					"type": "textarea"
+				}
+			]
 		}
 	]
 }
