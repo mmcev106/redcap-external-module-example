@@ -9,6 +9,8 @@
 		"update_user_permissions"
 	],
 
+	"description": "This module contains example code and configuration for all common External Module functionality to provide module developers working examples.  Please add examples here as new External Module features are added!",
+
 	"links": {
 		"control-center": [
 			{
