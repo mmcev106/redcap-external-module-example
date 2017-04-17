@@ -1,6 +1,13 @@
 {
 	"name": "Example Module",
 	
+	"authors": [
+		{
+			"name": "Mark McEver",
+			"email": "mark.mcever@vanderbilt.edu"
+		}
+	],
+
 	"permissions": [
 		"hook_every_page_top",
 		"select_data",
