@@ -1,8 +1,5 @@
 <?php
 namespace ExternalModules;
-require_once __DIR__ . '/../../external_modules/classes/ExternalModules.php';
-require_once 'ExampleExternalModule.php';
-
 
 $exampleModule = new ExampleExternalModule();
 
