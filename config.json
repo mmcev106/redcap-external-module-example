@@ -37,7 +37,7 @@
 		]
 	},
 
-	"global-settings": [
+	"system-settings": [
 		{
 			"key": "project-menu-background-css",
 			"name": "Project Menu Background CSS",
