@@ -1,6 +1,8 @@
 {
 	"name": "Example Module",
-	
+
+	"namespace": "Vanderbilt\\ExampleExternalModule",
+
 	"authors": [
 		{
 			"name": "Mark McEver",

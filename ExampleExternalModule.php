@@ -1,5 +1,8 @@
 <?php
-namespace ExternalModules;
+namespace Vanderbilt\ExampleExternalModule;
+
+use ExternalModules\AbstractExternalModule;
+use ExternalModules\ExternalModules;
 
 class ExampleExternalModule extends AbstractExternalModule
 {
